@@ -1,0 +1,17 @@
+.pageContainer {
+    height: 100vh;
+    width: 100vw;
+    overflow:scroll;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+
+    gap: 100px;
+}
+.w-40 {
+    width: 40%;
+}
+.h40 {
+    height: 40px;
+}

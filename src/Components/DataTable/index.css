@@ -1,0 +1,9 @@
+.w-50 {
+    width: 50%;
+}
+.cell-Border {
+    border: 1px solid black;
+}
+.table-cell {
+    text-align: center;
+}
