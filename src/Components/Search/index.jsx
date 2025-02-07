@@ -14,7 +14,7 @@ const Search = () => {
   const fetchSearchResults = async (query) => {
     try {
       const response = await axios.get(
-        `http://localhost:5000/search?q=${encodeURIComponent(query)}`
+        `http://13.233.158.50:5000/search?q=${encodeURIComponent(query)}`
       );
       setSearchResults(response?.data);
     } catch (error) {
