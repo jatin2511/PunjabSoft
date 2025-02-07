@@ -17,10 +17,34 @@
     padding-bottom: 5px;
 }
 .textHero {
-    font-size: 20px;
+    font-size: 25px;
     color: white;
-    font-weight: 700;
+    font-weight: 500;
 }
 .bgCoral {
     background: linear-gradient(45deg, #FF7F50, #FF6347, #FF4500);
+}
+.searchDropDown {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    top: 100%;
+}
+.searchWrapper:focus-within .searchDropDown {
+    display: block; 
+}
+.searchInput:focus ~ .searchDropDown {
+    display: block;
+} 
+.searchWrapper:active > .searchDropDown {
+    display: block;
+}
+.positionRelative {
+    position:relative
+}
+@media screen and (max-width:768px) {
+    .textHero {
+        font-size: 20px;
+    }
+    
 }

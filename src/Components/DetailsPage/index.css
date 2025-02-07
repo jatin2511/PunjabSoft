@@ -1,0 +1,18 @@
+.tableHeader {
+    background-color: #F7FAFC;
+}
+.tableData {
+    text-align: left;
+    padding:4px;
+    border:1px solid black;
+    font-size: large;
+}
+.detailsWrapper {
+    padding-top: 20px;
+}
+@media screen and (max-width:768px) {
+    .tableData {
+        font-size: small;
+    }
+    
+}
